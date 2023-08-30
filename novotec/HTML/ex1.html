@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 <head>
@@ -24,4 +25,32 @@ parseInt(document.getElementById("contador").innerText);
     <button onclick="decrementar()">Decrementar</button> 
 
 </body> 
+=======
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Operadores Incrementais </title>
+    <script>
+        function incrementar() {
+                                    let  contador = 
+parseInt(document.getElementById("contador").innerText);
+            contador++;
+            document.getElementById("contador").innerText = contador;
+        }
+
+        function decrementar() {
+                                let   contador = 
+parseInt(document.getElementById("contador").innerText);
+            contador--;
+            document.getElementById("contador").innerText = contador;
+        }
+    </script>
+</head>
+<body>
+    <h1>Contador: <span id="contador">8</span></h1>
+    <button onclick="incrementar()">Incrementar</button> 
+    <button onclick="decrementar()">Decrementar</button> 
+
+</body> 
+>>>>>>> 70f09e8cabc3c991e979a21cbc884720b41f14fb
 </html>
