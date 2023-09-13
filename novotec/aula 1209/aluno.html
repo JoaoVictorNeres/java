@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<body>   
+<style>
+        body {
+            background-color: rgb(255, 255, 255);
+            font-size: 48px;    
+            “text-align: "center";
+        }
+
+
+       
+    </style>    
+    <title> exercicio aluno </title>
+    <p align=center font-size="" > João Victor </p>
+      <div>   
+        <div id="data-hora"></div>
+
+
+        <script>
+            
+       function atualizarDataHora() {
+        
+        const agora = new Date();
+        
+        const dataHoraElement = document.getElementById('data-hora'); dataHoraElement.textContent = `Data e hora atual:
+        
+        ${agora.toLocaleString()}`;
+        
+        }
+        
+        atualizarDataHora();
+        
+        setInterval(atualizarDataHora, 1000);
+        
+        </script>
+<p align=center img src="Palmeiras_logo.svg.png" alt="Image" height="42" width="42">
+    <img src="Palmeiras_logo.svg.png" alt="Image" height="200" width="200">
+    <img src="copa-libertadores-logo.png" alt="Image" height="200" width="200">
+</body>
+        
+        </html>
